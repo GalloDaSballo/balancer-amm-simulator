@@ -1,5 +1,7 @@
-## Fork OP
-forge test --fork-url https://opt-mainnet.g.alchemy.com/v2/ST0ZewmedZBEsMSxL96YZAhkpCcXOLCC
+## Fork MAINNET
+forge test --match-test test_ebtc_meta_stable --fork-url https://eth-mainnet.g.alchemy.com/v2/ST0ZewmedZBEsMSxL96YZAhkpCcXOLCC
+
+
 
 
 ## Collecting Data
