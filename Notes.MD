@@ -1,7 +1,0 @@
-# TODO
-
-
-rETH | WETH
-
-https://balancer.fi/pools/ethereum/v2/0x1e19cf2d73a72ef1332c882f20534b6519be0276000200000000000000000112
-

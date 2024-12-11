@@ -1,26 +1,2 @@
 ## Fork MAINNET
-forge test --match-test test_ebtc_meta_stable --fork-url https://eth-mainnet.g.alchemy.com/v2/ST0ZewmedZBEsMSxL96YZAhkpCcXOLCC
-
-
-
-
-## Collecting Data
-
-forge test --fork-url https://opt-mainnet.g.alchemy.com/v2/KEY -vv
-
-Remember to use `-vv` (only 2) so you only see logs from us
-
-
-## Velo test
-forge test --match-contract VeloStable --fork-url https://opt-mainnet.g.alchemy.com/v2/KEY -vv
-
-## CURVE TESTS
-forge test --match-contract CurveStable --fork-url https://opt-mainnet.g.alchemy.com/v2/KEY -vv
-
-
-## BAL TESTS
-forge test --match-contract BalancerStable --fork-url https://opt-mainnet.g.alchemy.com/v2/KEY -vv
-
-## WARNING
-
-Balancer is just forking so you will get odd results
+forge test --match-test test_weth_reth --fork-url https://eth-mainnet.g.alchemy.com/v2/ST0ZewmedZBEsMSxL96YZAhkpCcXOLCC -vvvv
